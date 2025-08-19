@@ -10,3 +10,5 @@ fun main() {
     var person = Person("최태현") // 코틀린에선 객체 인스턴스화를 할 때에는 new 를 붙이지 않는다
 }
 
+// a
+
