@@ -1,5 +1,3 @@
-package lec01
-
 fun main() {
     val score = 10
     if (score in 0..100) {}

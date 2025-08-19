@@ -1,5 +1,3 @@
-package lec01
-
 fun main() {
     val person = Person("이승석", 30)
     println(person.name) // getter 바로 호출
@@ -22,9 +20,9 @@ class Person (
     val uppercaseName: String
         get() = name.uppercase()
 
-    fun isAdult(): Boolean {
-        return this.age >= 20
-    }
+//    fun isAdult(): Boolean {
+//        return this.age >= 20
+//    }
 
     val isAdult: Boolean
         get() = this.age >= 20
