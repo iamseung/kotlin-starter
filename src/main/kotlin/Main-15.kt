@@ -1,5 +1,9 @@
+import com.lannstark.lec12.StringUtils
+
 fun main() {
     map_test()
+    val result = StringUtils.isDirectoryPath("/")
+    println(result)
 }
 
 fun array() {
