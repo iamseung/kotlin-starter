@@ -19,6 +19,9 @@ class Person (
         }
     }
 
+    val uppercaseName: String
+        get() = name.uppercase()
+
     fun isAdult(): Boolean {
         return this.age >= 20
     }
@@ -35,4 +38,17 @@ class Person (
     constructor(): this("홍길동") {
         println("두번째 부 생성자")
     }
+}
+
+class Person2(
+    name: String = "iamseung",
+    var age: Int = 1
+) {
+
+    var name = name
+        set(value) {
+            // field는 들어오는 parameter
+            field = name.uppercase()
+        }
+
 }
