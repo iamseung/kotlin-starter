@@ -32,7 +32,7 @@ fun collection_test() {
     val emptyList = emptyList<Int>()
 }
 
-fun map_test() {
+public fun map_test() {
     val oldMap = mutableMapOf<Int, String>()
     oldMap[1] = "Monday"
     oldMap[2] = "Tuesday"
