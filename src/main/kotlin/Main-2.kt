@@ -1,5 +1,3 @@
-package lec01
-
 fun main() {
     val str: String? = null
     println(str?.length)

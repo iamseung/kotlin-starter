@@ -1,5 +1,3 @@
-package lec01
-
 import com.lannstark.lec04.JavaMoney
 
 fun main() {

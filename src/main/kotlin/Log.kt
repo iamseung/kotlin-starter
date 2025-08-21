@@ -1,0 +1,4 @@
+interface Log {
+
+    fun log() {}
+}
